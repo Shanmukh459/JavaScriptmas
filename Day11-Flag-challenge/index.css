@@ -1,0 +1,39 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: url("switzerland.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100svh;
+    display: grid;
+}
+
+:root { 
+    --white: #fff;
+    --red: #FF0002;
+}
+
+.flag {
+    position: relative;
+    background: #FF0002;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+}
+
+.cross {
+    position: absolute;
+    background: #fff;
+    inset: 0;
+    margin: auto;
+}
+
+.cross1 {
+    width: calc(100% * 5/8);
+    height: calc(100% * 3/16);
+}
+
+.cross2 {
+    width: calc(100% * 3/16);
+    height: calc(100% * 5/8);
+}
