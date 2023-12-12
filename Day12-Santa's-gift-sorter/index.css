@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container {
+    margin: 0;
+    background: url("gift.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 120px;
+    padding-bottom: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;   
+}
+
+h2 {
+    background: #ffdab9;
+    padding: 8px;
+    border-radius: 5px;
+    color: #250902;
+}
+
+ul {
+    color: #250902;
+    list-style-type: '🔺 ';
+    font-size: 16px;
+    border: 1px solid #ffdab9;
+}
+
+li {
+    padding-bottom: 5px;
+}
