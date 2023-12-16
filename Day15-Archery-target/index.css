@@ -1,0 +1,57 @@
+:root {
+    --black: #282828; 
+    --blue: #2892f9; 
+    --red: #fb2f27;
+    --yellow: #fdfe29;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background: url("plain-bg1.jpeg");
+    background-size: cover;
+
+} 
+
+.rings {
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    
+}
+
+.ring {
+    border-radius: 50%;
+        margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.ring-1 {
+    width: 360px;
+    background: var(--black);
+    height: 360px;
+
+}
+
+.ring-2 {
+    width: 270px;
+    height: 270px;
+    background: var(--blue);
+}
+
+.ring-3 {
+    width: 180px;
+    height: 180px;
+    background: var(--red);
+}
+
+.bullseye {
+    width: 90px;
+    height: 90px;
+    background: var(--yellow);
+}
