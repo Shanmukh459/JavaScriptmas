@@ -1,0 +1,44 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+:root {
+    --bg-word: #5134ff;
+}
+
+@keyframes changeTextAnimation {
+    100%, 0% {
+        content: "Scrimba"
+    }
+    
+    25% {
+        content: "Dance"
+    }
+    
+    50% {
+        content: "Coding"
+    }
+    
+    75% {
+        content: "Music"
+    }
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    
+}
+
+.change-text:after {
+    animation: changeTextAnimation 4s linear infinite;  
+    content: "Scrimba";
+    background: var(--bg-word);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
